@@ -1,0 +1,84 @@
+.opacity-gabut {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.font-h3 {
+    font-size: 12px;
+}
+
+.font-h4 {
+    font-size: 14px;
+    line-height: 1.2;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
+}
+
+.font-h5 {
+    font-size: 12px;
+}
+
+.m-yt {
+    margin-left : 43px;
+}
+
+/* Untuk layar kecil (misalnya di bawah 768px) */
+@media (max-width: 767px) {
+    .font-h4 {
+        font-size: 18px;
+    }
+    .font-h5 {
+    font-size: 14px;
+    }
+}
+
+.icon-channel {
+    width: 56px;
+    opacity: .6;
+    margin: 6px;
+}
+
+.icon-channel-active {
+    opacity: 1;
+}
+
+.icons-channel {
+    width: 35px;
+    height: 35px;
+}
+
+.div-channel{
+    transition: all 0.3s ease;
+}
+
+.justify-text {
+  text-align: justify;
+}
+
+.deskrip-komik{
+    font-size: 14px;
+}
+
+.batas-1-baris {
+  display: -webkit-box;               /* Gunakan layout fleksibel */
+  -webkit-box-orient: vertical;       /* Susun vertikal */
+  -webkit-line-clamp: 1;              /* Batasi maksimal 3 baris */
+  overflow: hidden;                   /* Sembunyikan teks yang kelebihan */
+}
+
+.batas-3-baris {
+  display: -webkit-box;               /* Gunakan layout fleksibel */
+  -webkit-box-orient: vertical;       /* Susun vertikal */
+  -webkit-line-clamp: 3;              /* Batasi maksimal 3 baris */
+  overflow: hidden;                   /* Sembunyikan teks yang kelebihan */
+}
+
+.bg-movie{
+    background-color: #DAA520 !important;
+}
+
+.genre {
+  border-radius: 0.25rem; /* atau bisa pakai 4px */
+}

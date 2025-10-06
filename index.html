@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AsikAja</title>
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-danger bg-gradient navbar-dark">
+      <div class="container">
+        <a class="navbar-brand text-light h5 mb-0" href="#">AsikAja</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item px-1">
+              <a class="nav-link text-light active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item px-1">
+              <a class="nav-link text-light" href="resources/html/movie.html">Movie</a>
+            </li>
+            <li class="nav-item px-1">
+              <a class="nav-link text-light" href="resources/html/anime.html">Anime</a>
+            </li>
+            <li class="nav-item px-1">
+              <a class="nav-link text-light" href="resources/html/komik.html">Komik</a>
+            </li>
+            <li class="nav-item px-1">
+              <a class="nav-link text-light" href="resources/html/faq.html">Faq</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="bg-white sticky-top">
+      <div id="channels" class="overflow-auto d-flex border-bottom border-secondary-subtle bg-opacity-10 bg-danger" style="max-height:400px; scrollbar-width: none; -ms-overflow-style: none;">
+          <!-- hasil dari api -->
+      
+      <div class="text-center div-channel py-2 bg-white px-2">
+        <img src="https://yt3.ggpht.com/D6VvYSN8nxKAaPmVvvuH-4BMR_O81TWz-w5hAuXIzHQBryuGz-U4Ofd8Cm3_S6et9_0CFp523Q=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icon-channel icon-channel-active" alt="Ardhianzy" data-id="UCd3PgaVcVCgfT_W_i78n0zg">
+        <p class="nama-channel font-h3 lh-sm fw-medium mb-0" data-full="Ardhianzy" data-short="Ardhian...">Ardhianzy</p>
+      </div>
+      <div class="text-center div-channel py-2">
+        <img src="https://yt3.ggpht.com/-TFIN27cFtK-3Sm-KSTTNV_r8pn7qSTU4EElocTXBHruOTODoHPiOajhwoYSUfea7haJM7ieFx4=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icon-channel" alt="Blue Spot Histori" data-id="UC4O0GNTld5Ii2KB57LVZacw">
+        <p class="nama-channel font-h3 lh-sm fw-medium mb-0" data-full="Blue Spot Histori" data-short="Blue Sp...">Blue Sp...</p>
+      </div>
+      <div class="text-center div-channel py-2">
+        <img src="https://yt3.ggpht.com/45SDJCw5xIQwxnoshuTG8u20gb22QJa2nDpaS_VUC6xGJ66Ry-5hi-f-Nk4Q0aAQIRVcCkNUSA=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icon-channel" alt="Caveine" data-id="UCpw2MGdcV_a-QyDzXTLitDg">
+        <p class="nama-channel font-h3 lh-sm fw-medium mb-0" data-full="Caveine" data-short="Caveine">Caveine</p>
+      </div>
+      <div class="text-center div-channel py-2">
+        <img src="https://yt3.ggpht.com/mkJc1FLWEWT1kqsm8ixUxWmx6IY1ayARRvXBJp89RRt5jbjuuIGAxThCzBkRPeQWL_KEWxVLYQ=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icon-channel" alt="Christopher Obadiah" data-id="UC5O70jJ61Y0mv3nU3AEJ1ag">
+        <p class="nama-channel font-h3 lh-sm fw-medium mb-0" data-full="Christopher Obadiah" data-short="Christo...">Christo...</p>
+      </div>
+      <div class="text-center div-channel py-2">
+        <img src="https://yt3.ggpht.com/xEGrVTQBnHLyNbQsuLVPXMRdPDekRbRpV_kKY_e2vfBfceXavAHTCWDXOFFVeFylyBGr6Fxi=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icon-channel" alt="Dari Suara" data-id="UCpy9Eyd02Y7F8CqsrUoXK0A">
+        <p class="nama-channel font-h3 lh-sm fw-medium mb-0" data-full="Dari Suara" data-short="Dari Su...">Dari Su...</p>
+      </div>
+      <div class="text-center div-channel py-2">
+        <img src="https://yt3.ggpht.com/8BOFd4vbCkrW-UI9i7YiNCdta0VRjl-8gDCe346lv5zAZWHlaZSy5wgDZwS4FxdaDrnZ20QLow=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icon-channel" alt="David Alfa Sunarna" data-id="UCQEMadPG9uqXNUcDeGR0Qlg">
+        <p class="nama-channel font-h3 lh-sm fw-medium mb-0" data-full="David Alfa Sunarna" data-short="David A...">David A...</p>
+      </div>
+      <div class="text-center div-channel py-2">
+        <img src="https://yt3.ggpht.com/q_CZqLrcde3SmUZ8bwSMaAf1Ag2DMX79-pA43yNxltM2J62y_Ym2e7109w8C3pJNGLC4UFZz540=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icon-channel" alt="DKID Media" data-id="UCN4NEg52XVGn_itFQqlESFA">
+        <p class="nama-channel font-h3 lh-sm fw-medium mb-0" data-full="DKID Media" data-short="DKID Me...">DKID Me...</p>
+      </div>
+      <div class="text-center div-channel py-2">
+        <img src="https://yt3.ggpht.com/ytc/AIdro_nOw8yf_PmfoQbgdeDwvEwAe4L3X-4-VOAhRoj_9mI1Wlg=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icon-channel" alt="Fajrul Fx" data-id="UCUYgCukQfUN2DImPYrBiV4g">
+        <p class="nama-channel font-h3 lh-sm fw-medium mb-0" data-full="Fajrul Fx" data-short="Fajrul...">Fajrul...</p>
+      </div>
+      <div class="text-center div-channel py-2">
+        <img src="https://yt3.ggpht.com/2eI1TjX447QZFDe6R32K0V2mjbVMKT5mIfQR-wK5bAsxttS_7qzUDS1ojoSKeSP0NuWd6sl7qQ=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icon-channel" alt="Google for Developers" data-id="UC_x5XG1OV2P6uZZ5FSM9Ttw">
+        <p class="nama-channel font-h3 lh-sm fw-medium mb-0" data-full="Google for Developers" data-short="Google...">Google...</p>
+      </div>
+      <div class="text-center div-channel py-2">
+        <img src="https://yt3.ggpht.com/hARrN9GFl_jVNxzHIcxubE-lDoHSy9a6NSnWkumY30ucXuhdhoS4Xurm9JHEJD2FUzdgMnxHKg=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icon-channel" alt="Irwan Prasetiyo" data-id="UCX9cPEAWIktM2MbXY1UcA9Q">
+        <p class="nama-channel font-h3 lh-sm fw-medium mb-0" data-full="Irwan Prasetiyo" data-short="Irwan P...">Irwan P...</p>
+      </div>
+      <div class="text-center div-channel py-2">
+        <img src="https://yt3.ggpht.com/zLsfJuYQiK03b3Ij1MPXDTGDLbzvZ5pZrT55ZPDrJIX02UpTih0XXSXmbhMyPhiDQK7vS7RQw78=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icon-channel" alt="Kepikiran Aja" data-id="UCiHgMyFIf04LNCggRytk7IA">
+        <p class="nama-channel font-h3 lh-sm fw-medium mb-0" data-full="Kepikiran Aja" data-short="Kepikir...">Kepikir...</p>
+      </div>
+      <div class="text-center div-channel py-2">
+        <img src="https://yt3.ggpht.com/ytc/AIdro_lfe-R2-ABQAVkkPx1iXGQz-ZbDn0IlmbaqRhy3pM5DLnw=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icon-channel" alt="Kok Bisa?" data-id="UCu0yQD7NFMyLu_-TmKa4Hqg">
+        <p class="nama-channel font-h3 lh-sm fw-medium mb-0" data-full="Kok Bisa?" data-short="Kok Bis...">Kok Bis...</p>
+      </div>
+      <div class="text-center div-channel py-2">
+        <img src="https://yt3.ggpht.com/EImmnDvOaVD9YzayDDHXDXUaiSej5TMgyHr1eIRH_Bohb5EFikm6e46oQTsKDdIcKkw4cfKqcQ=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icon-channel" alt="Mindplace" data-id="UCI1drktrfRzcR7kXvbRJ_rA">
+        <p class="nama-channel font-h3 lh-sm fw-medium mb-0" data-full="Mindplace" data-short="Mindpla...">Mindpla...</p>
+      </div>
+      <div class="text-center div-channel py-2">
+        <img src="https://yt3.ggpht.com/v4VEIv9UXluM3FgFZwRAvDCzClnkdpJq4IhemP-EHD_2rLOL6pY-JB_agzwH7Mm3QzTXUQs78CM=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icon-channel" alt="Mindplace Studio" data-id="UCdox64GgajjSIuGZoNTVt1A">
+        <p class="nama-channel font-h3 lh-sm fw-medium mb-0" data-full="Mindplace Studio" data-short="Mindpla...">Mindpla...</p>
+      </div>
+      <div class="text-center div-channel py-2">
+        <img src="https://yt3.ggpht.com/88MMKULtIMDOFtPjwcJ8uDtyQnxWDCERjRuxupxR632ToBW14E0YUMHQP7-CZY32zOxd6F5-_w=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icon-channel" alt="Nahh Jadi..." data-id="UCXeWcDgFylAdPuy_PdiLWjA">
+        <p class="nama-channel font-h3 lh-sm fw-medium mb-0" data-full="Nahh Jadi..." data-short="Nahh Ja...">Nahh Ja...</p>
+      </div>
+      <div class="text-center div-channel py-2">
+        <img src="https://yt3.ggpht.com/ytc/AIdro_kbl_vbc10qcp289Jf7XT_Y0U0sv8SGSBX_4idsknnN=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icon-channel" alt="Neuron" data-id="UCEMMrXP3_WeKiOunPYixMfA">
+        <p class="nama-channel font-h3 lh-sm fw-medium mb-0" data-full="Neuron" data-short="Neuron">Neuron</p>
+      </div>
+      <div class="text-center div-channel py-2">
+        <img src="https://yt3.ggpht.com/P6qvdh5Z3LmrajSa-9LsVwE2DFpNClnkagp5KqTzKZU4p7yPLB__uKH3vuCwOAv8n3LzXpFEWw=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icon-channel" alt="Pak Win" data-id="UCjAg_LOx9pF4nnvCGO9tsrg">
+        <p class="nama-channel font-h3 lh-sm fw-medium mb-0" data-full="Pak Win" data-short="Pak Win">Pak Win</p>
+      </div>
+      <div class="text-center div-channel py-2">
+        <img src="https://yt3.ggpht.com/SVTK3kmMKCmWJOxnknMeVV_uaJVh1OVdEeYRKKIlhp77lzaE1eAG7uw_Z9OOnKAEARkrZKKD6Og=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icon-channel" alt="Pertajam Pola Pikir" data-id="UC9d7kjsbPX-EAecdyChb_mw">
+        <p class="nama-channel font-h3 lh-sm fw-medium mb-0" data-full="Pertajam Pola Pikir" data-short="Pertaja...">Pertaja...</p>
+      </div>
+      <div class="text-center div-channel py-2">
+        <img src="https://yt3.ggpht.com/7tsuMcUXtmfoMKRHhtGTOmrCeyudTLrOFVIhPGlGPxYCwvWUFfNJUM-2KHKJk8e__6QHRRa6kyg=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icon-channel" alt="sagalanichol" data-id="UCgxy4cTVtuPou-V6_rzaKsA">
+        <p class="nama-channel font-h3 lh-sm fw-medium mb-0" data-full="sagalanichol" data-short="sagalan...">sagalan...</p>
+      </div>
+      <div class="text-center div-channel py-2">
+        <img src="https://yt3.ggpht.com/GAfATZv9X33Ebb4I1sGxjj1mRL9cxB79TDDZ0DKgJ_8Pi_-LRQ9EBorn-cWLrO0G7XRW1HufHA=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icon-channel" alt="Saham dari Nol" data-id="UCswSgqh8pCrDohjvE71KUtw">
+        <p class="nama-channel font-h3 lh-sm fw-medium mb-0" data-full="Saham dari Nol" data-short="Saham d...">Saham d...</p>
+      </div>
+      <div class="text-center div-channel py-2">
+        <img src="https://yt3.ggpht.com/puAEzUdt-D3MC7kOA2Ji0tCbp_Fv4Qv3vqDtVX0n0ThiHdXcfDd1GaVCWnWCLIVTvuy-8l5w6A=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icon-channel" alt="Satu Persen - Indonesian Life School" data-id="UC_eifcIIjgN8Q_8m34nWo3Q">
+        <p class="nama-channel font-h3 lh-sm fw-medium mb-0" data-full="Satu Persen - Indonesian Life School" data-short="Satu Pe...">Satu Pe...</p>
+      </div>
+      <div class="text-center div-channel py-2">
+        <img src="https://yt3.ggpht.com/ytc/AIdro_nLq_llhURWz6P6dE6C2m3a1FCj8ZYUJ-iqwchicKFTuUQ=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icon-channel" alt="Tekotok" data-id="UCFhzJ5UfoTlOxJT8xYoTuDw">
+        <p class="nama-channel font-h3 lh-sm fw-medium mb-0" data-full="Tekotok" data-short="Tekotok">Tekotok</p>
+      </div>
+      <div class="text-center div-channel py-2">
+        <img src="https://yt3.ggpht.com/ytc/AIdro_nKO0K6knHLXttJoZ871UIaPAoRedQV4-vrvDg-jD0EFmA=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icon-channel" alt="Topi Sihir Animation" data-id="UC9n3IgleIaFrJrp2hipGQpQ">
+        <p class="nama-channel font-h3 lh-sm fw-medium mb-0" data-full="Topi Sihir Animation" data-short="Topi Si...">Topi Si...</p>
+      </div>
+      <div class="text-center div-channel py-2">
+        <img src="https://yt3.ggpht.com/gB9L0xSZjS8mRO3tpV5BvaVKgStbQCKQl97dqnUcvdEB7NQYbLMxN2RMocqZepv-VBsjFSnU=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icon-channel" alt="WPU" data-id="UCkXmLjEr95LVtGuIm3l2dPg">
+        <p class="nama-channel font-h3 lh-sm fw-medium mb-0" data-full="WPU" data-short="WPU">WPU</p>
+      </div></div>
+    </div>
+
+    <div class="container my-3">
+      <div id="videos-container" class="row rounded-3 row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div>
+            <div class="position-relative">
+              <div class="ratio ratio-16x9 video-trigger" data-bs-toggle="modal" data-bs-target="#videoModal" data-video-id="DK4K0-0NS0c">
+                <img src="https://i.ytimg.com/vi/DK4K0-0NS0c/mqdefault.jpg" class="w-100 h-100 rounded-3 object-fit-cover" alt="TIDAK ADA SOLUSI! | Inilah Alasan Kenapa Kita Merasa Kosong!">
+              </div>
+              <span class="badge position-absolute end-0 me-1 opacity-gabut" style="margin-top: -1.6rem;">38:29</span>
+            </div>
+            <div class="card-body pt-2 pb-0 d-flex">
+              <img src="https://yt3.ggpht.com/D6VvYSN8nxKAaPmVvvuH-4BMR_O81TWz-w5hAuXIzHQBryuGz-U4Ofd8Cm3_S6et9_0CFp523Q=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icons-channel me-2" alt="...">
+              <h5 class="card-title font-h4 mb-1">TIDAK ADA SOLUSI! | Inilah Alasan Kenapa Kita Merasa Kosong!</h5>
+            </div>
+            <div class="font-h5 m-yt">
+              <p class="card-title mb-0">Ardhianzy</p>
+              <p class="card-title">60 rb x ditonton • 5 hari yang lalu</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col">
+          <div>
+            <div class="position-relative">
+              <div class="ratio ratio-16x9 video-trigger" data-bs-toggle="modal" data-bs-target="#videoModal" data-video-id="MSGtgYJgiis">
+                <img src="https://i.ytimg.com/vi/MSGtgYJgiis/mqdefault.jpg" class="w-100 h-100 rounded-3 object-fit-cover" alt="Sejarah Lengkap Dan Ringkas Penjelajahan Dan Penjajahan Dunia Pertama Tahun (±1450–1914)">
+              </div>
+              <span class="badge position-absolute end-0 me-1 opacity-gabut" style="margin-top: -1.6rem;">37:59</span>
+            </div>
+            <div class="card-body pt-2 pb-0 d-flex">
+              <img src="https://yt3.ggpht.com/D6VvYSN8nxKAaPmVvvuH-4BMR_O81TWz-w5hAuXIzHQBryuGz-U4Ofd8Cm3_S6et9_0CFp523Q=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icons-channel me-2" alt="...">
+              <h5 class="card-title font-h4 mb-1">Sejarah Lengkap Dan Ringkas Penjelajahan Dan Penjajahan Dunia Pertama Tahun (±1450–1914)</h5>
+            </div>
+            <div class="font-h5 m-yt">
+              <p class="card-title mb-0">Ardhianzy</p>
+              <p class="card-title">46 rb x ditonton • 11 hari yang lalu</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col">
+          <div>
+            <div class="position-relative">
+              <div class="ratio ratio-16x9 video-trigger" data-bs-toggle="modal" data-bs-target="#videoModal" data-video-id="oryK-XV__eM">
+                <img src="https://i.ytimg.com/vi/oryK-XV__eM/mqdefault.jpg" class="w-100 h-100 rounded-3 object-fit-cover" alt="JANGAN BELAJAR INI! Mengapa FILSAFAT Selalu Dicap SESAT? Ilmu Pengetahuan Terlarang?!">
+              </div>
+              <span class="badge position-absolute end-0 me-1 opacity-gabut" style="margin-top: -1.6rem;">37:06</span>
+            </div>
+            <div class="card-body pt-2 pb-0 d-flex">
+              <img src="https://yt3.ggpht.com/D6VvYSN8nxKAaPmVvvuH-4BMR_O81TWz-w5hAuXIzHQBryuGz-U4Ofd8Cm3_S6et9_0CFp523Q=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icons-channel me-2" alt="...">
+              <h5 class="card-title font-h4 mb-1">JANGAN BELAJAR INI! Mengapa FILSAFAT Selalu Dicap SESAT? Ilmu Pengetahuan Terlarang?!</h5>
+            </div>
+            <div class="font-h5 m-yt">
+              <p class="card-title mb-0">Ardhianzy</p>
+              <p class="card-title">71 rb x ditonton • 2 minggu yang lalu</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col">
+          <div>
+            <div class="position-relative">
+              <div class="ratio ratio-16x9 video-trigger" data-bs-toggle="modal" data-bs-target="#videoModal" data-video-id="MJqYamH5mlg">
+                <img src="https://i.ytimg.com/vi/MJqYamH5mlg/mqdefault.jpg" class="w-100 h-100 rounded-3 object-fit-cover" alt="Cara Berpikir Psikopat Paling Akurat Dalam Film! Anton Chigurh: No Country for Old Men">
+              </div>
+              <span class="badge position-absolute end-0 me-1 opacity-gabut" style="margin-top: -1.6rem;">30:39</span>
+            </div>
+            <div class="card-body pt-2 pb-0 d-flex">
+              <img src="https://yt3.ggpht.com/D6VvYSN8nxKAaPmVvvuH-4BMR_O81TWz-w5hAuXIzHQBryuGz-U4Ofd8Cm3_S6et9_0CFp523Q=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icons-channel me-2" alt="...">
+              <h5 class="card-title font-h4 mb-1">Cara Berpikir Psikopat Paling Akurat Dalam Film! Anton Chigurh: No Country for Old Men</h5>
+            </div>
+            <div class="font-h5 m-yt">
+              <p class="card-title mb-0">Ardhianzy</p>
+              <p class="card-title">137 rb x ditonton • 3 minggu yang lalu</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col">
+          <div>
+            <div class="position-relative">
+              <div class="ratio ratio-16x9 video-trigger" data-bs-toggle="modal" data-bs-target="#videoModal" data-video-id="od0t3Pywnpw">
+                <img src="https://i.ytimg.com/vi/od0t3Pywnpw/mqdefault.jpg" class="w-100 h-100 rounded-3 object-fit-cover" alt="TIDAK ADA JAWABAN! 10 Pertanyaan Tengah Malam Sebelum Tidur Untuk Merenung">
+              </div>
+              <span class="badge position-absolute end-0 me-1 opacity-gabut" style="margin-top: -1.6rem;">39:51</span>
+            </div>
+            <div class="card-body pt-2 pb-0 d-flex">
+              <img src="https://yt3.ggpht.com/D6VvYSN8nxKAaPmVvvuH-4BMR_O81TWz-w5hAuXIzHQBryuGz-U4Ofd8Cm3_S6et9_0CFp523Q=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icons-channel me-2" alt="...">
+              <h5 class="card-title font-h4 mb-1">TIDAK ADA JAWABAN! 10 Pertanyaan Tengah Malam Sebelum Tidur Untuk Merenung</h5>
+            </div>
+            <div class="font-h5 m-yt">
+              <p class="card-title mb-0">Ardhianzy</p>
+              <p class="card-title">178 rb x ditonton • 1 bulan yang lalu</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col">
+          <div>
+            <div class="position-relative">
+              <div class="ratio ratio-16x9 video-trigger" data-bs-toggle="modal" data-bs-target="#videoModal" data-video-id="9_dfRM7ho6g">
+                <img src="https://i.ytimg.com/vi/9_dfRM7ho6g/mqdefault.jpg" class="w-100 h-100 rounded-3 object-fit-cover" alt="Argumen TERKUAT Apakah Tuhan Ada Atau Tidak Dari Kedua Pihak! Ft. @RumahEditor ​">
+              </div>
+              <span class="badge position-absolute end-0 me-1 opacity-gabut" style="margin-top: -1.6rem;">45:43</span>
+            </div>
+            <div class="card-body pt-2 pb-0 d-flex">
+              <img src="https://yt3.ggpht.com/D6VvYSN8nxKAaPmVvvuH-4BMR_O81TWz-w5hAuXIzHQBryuGz-U4Ofd8Cm3_S6et9_0CFp523Q=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icons-channel me-2" alt="...">
+              <h5 class="card-title font-h4 mb-1">Argumen TERKUAT Apakah Tuhan Ada Atau Tidak Dari Kedua Pihak! Ft. @RumahEditor ​</h5>
+            </div>
+            <div class="font-h5 m-yt">
+              <p class="card-title mb-0">Ardhianzy</p>
+              <p class="card-title">187 rb x ditonton • 1 bulan yang lalu</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col">
+          <div>
+            <div class="position-relative">
+              <div class="ratio ratio-16x9 video-trigger" data-bs-toggle="modal" data-bs-target="#videoModal" data-video-id="zRn36EfywIE">
+                <img src="https://i.ytimg.com/vi/zRn36EfywIE/mqdefault.jpg" class="w-100 h-100 rounded-3 object-fit-cover" alt="Kejadian TERBESAR Yang Mengubah Sejarah Manusia! Kejatuhan Konstantinopel 1453">
+              </div>
+              <span class="badge position-absolute end-0 me-1 opacity-gabut" style="margin-top: -1.6rem;">35:45</span>
+            </div>
+            <div class="card-body pt-2 pb-0 d-flex">
+              <img src="https://yt3.ggpht.com/D6VvYSN8nxKAaPmVvvuH-4BMR_O81TWz-w5hAuXIzHQBryuGz-U4Ofd8Cm3_S6et9_0CFp523Q=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icons-channel me-2" alt="...">
+              <h5 class="card-title font-h4 mb-1">Kejadian TERBESAR Yang Mengubah Sejarah Manusia! Kejatuhan Konstantinopel 1453</h5>
+            </div>
+            <div class="font-h5 m-yt">
+              <p class="card-title mb-0">Ardhianzy</p>
+              <p class="card-title">159 rb x ditonton • 1 bulan yang lalu</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col">
+          <div>
+            <div class="position-relative">
+              <div class="ratio ratio-16x9 video-trigger" data-bs-toggle="modal" data-bs-target="#videoModal" data-video-id="aALOMgdIXag">
+                <img src="https://i.ytimg.com/vi/aALOMgdIXag/mqdefault.jpg" class="w-100 h-100 rounded-3 object-fit-cover" alt="Analisis Seluruh Karakter Demon Slayer! Karakter Utama, Semua Hashira Dan Para Iblis">
+              </div>
+              <span class="badge position-absolute end-0 me-1 opacity-gabut" style="margin-top: -1.6rem;">41:05</span>
+            </div>
+            <div class="card-body pt-2 pb-0 d-flex">
+              <img src="https://yt3.ggpht.com/D6VvYSN8nxKAaPmVvvuH-4BMR_O81TWz-w5hAuXIzHQBryuGz-U4Ofd8Cm3_S6et9_0CFp523Q=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icons-channel me-2" alt="...">
+              <h5 class="card-title font-h4 mb-1">Analisis Seluruh Karakter Demon Slayer! Karakter Utama, Semua Hashira Dan Para Iblis</h5>
+            </div>
+            <div class="font-h5 m-yt">
+              <p class="card-title mb-0">Ardhianzy</p>
+              <p class="card-title">109 rb x ditonton • 1 bulan yang lalu</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col">
+          <div>
+            <div class="position-relative">
+              <div class="ratio ratio-16x9 video-trigger" data-bs-toggle="modal" data-bs-target="#videoModal" data-video-id="h-E35mk49VM">
+                <img src="https://i.ytimg.com/vi/h-E35mk49VM/mqdefault.jpg" class="w-100 h-100 rounded-3 object-fit-cover" alt="Kita Berdoa, Bercinta, Bekerja, Bermimpi Untuk Menghindari Kenyataan Paling Mengerikan">
+              </div>
+              <span class="badge position-absolute end-0 me-1 opacity-gabut" style="margin-top: -1.6rem;">41:03</span>
+            </div>
+            <div class="card-body pt-2 pb-0 d-flex">
+              <img src="https://yt3.ggpht.com/D6VvYSN8nxKAaPmVvvuH-4BMR_O81TWz-w5hAuXIzHQBryuGz-U4Ofd8Cm3_S6et9_0CFp523Q=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icons-channel me-2" alt="...">
+              <h5 class="card-title font-h4 mb-1">Kita Berdoa, Bercinta, Bekerja, Bermimpi Untuk Menghindari Kenyataan Paling Mengerikan</h5>
+            </div>
+            <div class="font-h5 m-yt">
+              <p class="card-title mb-0">Ardhianzy</p>
+              <p class="card-title">108 rb x ditonton • 2 bulan yang lalu</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col">
+          <div>
+            <div class="position-relative">
+              <div class="ratio ratio-16x9 video-trigger" data-bs-toggle="modal" data-bs-target="#videoModal" data-video-id="D8iwPCQCGSM">
+                <img src="https://i.ytimg.com/vi/D8iwPCQCGSM/mqdefault.jpg" class="w-100 h-100 rounded-3 object-fit-cover" alt="Mengapa Justru Menjadi Diri Sendiri Adalah Penderitaan Terdalam Manusia? | Søren Kierkegaard">
+              </div>
+              <span class="badge position-absolute end-0 me-1 opacity-gabut" style="margin-top: -1.6rem;">40:19</span>
+            </div>
+            <div class="card-body pt-2 pb-0 d-flex">
+              <img src="https://yt3.ggpht.com/D6VvYSN8nxKAaPmVvvuH-4BMR_O81TWz-w5hAuXIzHQBryuGz-U4Ofd8Cm3_S6et9_0CFp523Q=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icons-channel me-2" alt="...">
+              <h5 class="card-title font-h4 mb-1">Mengapa Justru Menjadi Diri Sendiri Adalah Penderitaan Terdalam Manusia? | Søren Kierkegaard</h5>
+            </div>
+            <div class="font-h5 m-yt">
+              <p class="card-title mb-0">Ardhianzy</p>
+              <p class="card-title">100 rb x ditonton • 2 bulan yang lalu</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col">
+          <div>
+            <div class="position-relative">
+              <div class="ratio ratio-16x9 video-trigger" data-bs-toggle="modal" data-bs-target="#videoModal" data-video-id="Ut5v7PqVFrA">
+                <img src="https://i.ytimg.com/vi/Ut5v7PqVFrA/mqdefault.jpg" class="w-100 h-100 rounded-3 object-fit-cover" alt="Kalau Big Bang Benar, Berarti Tuhan Tidak Ada? | Big Bang Dan Ketuhanan">
+              </div>
+              <span class="badge position-absolute end-0 me-1 opacity-gabut" style="margin-top: -1.6rem;">41:55</span>
+            </div>
+            <div class="card-body pt-2 pb-0 d-flex">
+              <img src="https://yt3.ggpht.com/D6VvYSN8nxKAaPmVvvuH-4BMR_O81TWz-w5hAuXIzHQBryuGz-U4Ofd8Cm3_S6et9_0CFp523Q=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icons-channel me-2" alt="...">
+              <h5 class="card-title font-h4 mb-1">Kalau Big Bang Benar, Berarti Tuhan Tidak Ada? | Big Bang Dan Ketuhanan</h5>
+            </div>
+            <div class="font-h5 m-yt">
+              <p class="card-title mb-0">Ardhianzy</p>
+              <p class="card-title">152 rb x ditonton • 2 bulan yang lalu</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col">
+          <div>
+            <div class="position-relative">
+              <div class="ratio ratio-16x9 video-trigger" data-bs-toggle="modal" data-bs-target="#videoModal" data-video-id="bpH5lKa92EM">
+                <img src="https://i.ytimg.com/vi/bpH5lKa92EM/mqdefault.jpg" class="w-100 h-100 rounded-3 object-fit-cover" alt="SIAPA LEBIH BIJAKSANA? TIMUR ATAU BARAT? | Filsafat Barat vs. Filsafat Timur">
+              </div>
+              <span class="badge position-absolute end-0 me-1 opacity-gabut" style="margin-top: -1.6rem;">42:15</span>
+            </div>
+            <div class="card-body pt-2 pb-0 d-flex">
+              <img src="https://yt3.ggpht.com/D6VvYSN8nxKAaPmVvvuH-4BMR_O81TWz-w5hAuXIzHQBryuGz-U4Ofd8Cm3_S6et9_0CFp523Q=s240-c-k-c0x00ffffff-no-rj" class="rounded-circle icons-channel me-2" alt="...">
+              <h5 class="card-title font-h4 mb-1">SIAPA LEBIH BIJAKSANA? TIMUR ATAU BARAT? | Filsafat Barat vs. Filsafat Timur</h5>
+            </div>
+            <div class="font-h5 m-yt">
+              <p class="card-title mb-0">Ardhianzy</p>
+              <p class="card-title">85 rb x ditonton • 2 bulan yang lalu</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center my-4">
+        <div id="pagination" class="btn-group"><button class="btn btn-sm btn-danger">1</button><button class="btn btn-sm btn-outline-danger">2</button><button class="btn btn-sm btn-outline-danger">3</button><button class="btn btn-sm btn-outline-danger">4</button><button class="btn btn-sm btn-outline-danger">5</button><button class="btn btn-sm btn-outline-danger"><i class="bi bi-chevron-right"></i></button></div>
+        <div id="page"></div>
+      </div>
+    </div>
+
+    <!-- Modal Video -->
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content bg-dark">
+          <div class="modal-header border-0">
+            <h5 class="modal-title text-light" id="videoModalLabel">Video Player</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-0">
+            <div class="ratio ratio-16x9">
+              <iframe id="videoIframe" class="w-100 h-100" src="" frameborder="0" allowfullscreen=""></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="resources/js/api.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  
+  </body>
+</html>

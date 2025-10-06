@@ -1,0 +1,78 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AsikAja | Faq</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-warning bg-gradient navbar-dark">
+      <div class="container">
+        <a class="navbar-brand text-light h5 mb-0 me-0" href="#">AsikAja</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link text-light active" aria-current="page" href="../../index.html">Home</a>
+            </li>
+            <li class="nav-item px-1">
+              <a class="nav-link text-light" href="movie.html">Movie</a>
+            </li>
+            <li class="nav-item px-1">
+              <a class="nav-link text-light" href="anime.html">Anime</a>
+            </li>
+            <li class="nav-item px-1">
+              <a class="nav-link text-light" href="komik.html">Komik</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Faq</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container my-3">
+
+      <a class="mt-4 d-flex justify-content-between border-2 border-bottom border-secondary" style="text-decoration:none; color:inherit; cursor: pointer;" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
+        <h5>Q : Apa itu website AsikAja?</h5>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor" class="w-9 h-9 md:w-10 md:h-10"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+      </a>
+      <div class="collapse" id="faq1">
+        <div class="card card-body">
+          AsikAja adalah website non-resmi/non-official dari Youtube, website ini adalah web pribadi Developer dengan memanfaatkan API dari Youtube. Pengembangan website ini bermula dari masalah pribadi Developer yang mungkin dialami juga oleh banyak orang, yaitu terdistraksi oleh video rekomendasi youtube saat hanya berniat menonton konten atau informasi tertentu, seringnya muncul video yang kurang berfaedah, dan larutnya Developer untuk terus menonton hingga berjam-jam hingga sulit berhenti.
+        </div>
+      </div>
+
+      <a class="mt-4 d-flex justify-content-between border-2 border-bottom border-secondary" style="text-decoration:none; color:inherit; cursor: pointer;" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+        <h5>Q : Di youtube ada video baru di channel, kenapa di sini tidak ada?</h5>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor" class="w-9 h-9 md:w-10 md:h-10"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+      </a>
+      <div class="collapse" id="faq2">
+        <div class="card card-body">
+          Youtube Lite menggunakan API Youtube untuk menampilkan video. Beberapa video, short, atau livestreaming mungkin tidak muncul dikarenakan tidak diberikan akses oleh youtube melalui API. Namun, bisa jadi karena mekanisme refresh otomatis video pada channel yang baru akan aktif jika waktu penambahan video dari API ke database dengan waktu saat ini belum lewat dari 12 jam.
+        </div>
+      </div>
+
+      <a class="mt-4 d-flex justify-content-between border-2 border-bottom border-secondary" style="text-decoration:none; color:inherit; cursor: pointer;" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+        <h5>Q : Mengapa saat saya tekan tombol next tidak terjadi apa-apa?</h5>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor" class="w-9 h-9 md:w-10 md:h-10"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+      </a>
+      <div class="collapse" id="faq3">
+        <div class="card card-body">
+          Ada dua kemungkinan. Pertama, batas kuota dari API Youtube telah habis, jadi baru bisa direfresh keesokan harinya dikarenakan satu kuota API dipakai bersama untuk menampilkan konten yang selanjutnya konten tersebut dapat ditampilkan juga untuk user lain. Kedua, terjadi pembatasan atas video yang ditampilkan oleh youtube, sehingga channel tertentu tidak dapat menampilkan video terdahulu melalui API. 8/9/2025
+        </div>
+      </div>
+      
+    </div>
+
+    <!-- youtube lite bagi saya itu sebuah website yang mana membatasi channels dan video yang bisa diterima dan di search, fungsinya agar mengurangi masalah terdistraksi dengan video yang bukan niat awal rencana untuk ditonton dan mengurangi konten gak guna bukan sekadar dengan membatasi channel dan video semata, melainkan memfilter channel dan video yang berkualitas antara edukatif, menghibur, dan informatif menurut pandangan pribadi untuk saat ini. saya juga membatasi fitur semacam komentar untuk mencegah chat yang tidak perlu karena focus Utama adalahvideo yang bermutu. ke depannya saya ingin menambah fitur playlist edukatif dan saya harap website saya menjadi tempat referansi untuk menemukan channel bagus, mengurangi bermain yt yang berlebihan, dan menonjolkan video edukasi yang biasanya tenggelam di hampir di seluruh medsos -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>
